@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" type="text/css" href="khan_sameer_hw3_styles.css">
+    
+    <title>Sameer Khan Homwork 3</title>
+    
+    </head>
+    
+    <body>
+    
+    <h1>Paula's Pizza</h1>
+        
+        <img src="pizza.png" alt="pizza">
+        
+        <br>
+        
+        <form id="pizzaOrder">
+        
+        <label for="uname">User Name:</label>
+            
+            <input type="text" id="fname" name="fname"><br><br>
+            
+            <label for="phnumber">Phone number:</label>
+            
+            <input type="text" id="lname" name="lname"><br><br>
+            
+            <label for="uname">Email ID:</label>
+            
+            <input type="text" id="fname" name="fname"><br><br>
+            
+            <select id="sizeForPizza">
+            
+                <option value="sm">Small ($10)</option>
+                
+                <option value="me">Medium ($13)</option>
+                
+                <option value="lg">Large ($16)</option>
+                
+                <option value="xl">Extra Large ($19)</option>
+            
+            </select>
+            
+            <br>
+            
+            <br>
+            
+            <label>Select Toppings:</label>
+            
+            <br>
+            
+            <label><input type="checkbox" value="mushrooms">Mushrooms</label>
+            
+            <label><input type="checkbox" value="pepperoni">Pepperoni</label>
+            
+            <br>
+            
+            <label><input type="checkbox" value="greenPeppers">Green Peppers</label>
+            
+            <label><input type="checkbox" value="sausage">Sausage</label>
+            
+            <br><br>
+            
+            <label>Special Requests:</label>
+            
+            <br><br>
+            
+            <textarea id="specialRequests"></textarea>
+            
+            <br><br>
+            
+            <input type="radio" name="radio">
+            
+            <label for="pickup">Pickup</label><br>
+            
+            <br>
+            
+            <label><input type="checkbox" vale="checked">"Would you like to be added to our mailing list?"</label>
+            
+            <br><br>
+            
+            <input type="submit" value="Order My Pizza" onclick="pizzaOrdered();">
+        
+        </form>
+        
+    </body>
+
+    <! -- A zip file and html file are two diffrent files. A zip file compresses a file or multiple fils that are contained witing a folder. Unlike, an html file is a file to create web pages. If you save a zip file with an html extension than you are trying to convert the zip file into an html file. This is not what we want. Hence, you should save a file as khan_sameer_a3.zip. Instead of, khan_sameer_a3.html.zip. This is wrong. -->
+    
+</html>

@@ -1,0 +1,35 @@
+body {
+    width: 350px;
+    
+    margin: auto;
+}
+
+h1 {
+    border-width: 3px;
+    
+    border-style: dotted;
+    
+    text-align: center;
+}
+
+img {
+    
+    display: block;
+    
+    margin-left: auto;
+    
+    margin-right: auto;
+    
+    width: 350px;
+    
+    height: 260px;
+    
+    border-radius: 20%;
+}
+
+label {
+    
+    color: #FF0000;
+    
+    font-family: "Lucida Console", Courier, monospace;
+}
